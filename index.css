@@ -1,6 +1,10 @@
  
 /* start css.sty */
-.ec-lmr-10x-x-109{}
+.rm-lmr-10x-x-109{}
+.cmbx-10x-x-109{ font-weight: bold;}
+.cmbx-10x-x-109{ font-weight: bold;}
+.cmbx-8{font-size:72%; font-weight: bold;}
+.cmbx-8{ font-weight: bold;}
 .cmbsy-10x-x-109{font-weight: bold;}
 .cmbsy-10x-x-109{font-weight: bold;}
 .cmbsy-10x-x-109{font-weight: bold;}
@@ -28,13 +32,9 @@
 .cmsy-10x-x-109{}
 .cmsy-8{font-size:72%;}
 .cmsy-6{font-size:54%;}
-.ec-lmr-17{font-size:154%;}
-.ec-lmr-12{font-size:109%;}
-.ec-lmri-10x-x-109{ font-style:italic;}
-.ec-lmri-10x-x-109{ font-style:italic;}
-.ec-lmri-10x-x-109{ font-style:italic;}
-.ec-lmri-10x-x-109{ font-style:italic;}
-body#tex4ht-menu {white-space: nowrap; }
+.rm-lmr-17{font-size:154%;}
+.rm-lmr-12{font-size:109%;}
+.rm-lmri-10x-x-109{ font-style:italic;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
@@ -49,9 +49,7 @@ td center { margin-top:0em; margin-bottom:0em; }
 math { text-indent: 0em; }
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
-li p:first-child{ margin-bottom; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
-li p:first-child{ margin-bottom:0; }
 li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
 .enumerate1 {list-style-type:decimal;}
 .enumerate2 {list-style-type:lower-alpha;}
@@ -125,7 +123,6 @@ mi + mo.MathClass-op{margin-left:0.3em}
  math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
  math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
-.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -134,6 +131,7 @@ p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom
 p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
 .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
 .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+.quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
 .verse{white-space:nowrap; margin-left:2em}
 div.maketitle {text-align:center;}
 h2.titleHead{text-align:center;}
@@ -141,16 +139,14 @@ div.maketitle{ margin-bottom: 2em; }
 div.author, div.date {text-align:center;}
 div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
 div.author{white-space: nowrap;}
-div.abstract p {margin-left:5%; margin-right:5%;}
+.quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+.abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
-.abstracttitle{text-align:center;margin-bottom:1em;}
 figure.float, div.figure {margin-left: auto; margin-right: auto;}
 figure.float img, figure.figure img {display: block; margin-left: auto; margin-right: auto;}
-figure.figure {text-align:center;}
+figure.figure > p {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
-p + figcaption, img + figcaption{margin-top: 1em;}
-.abstract{margin:1em;}
 .equation-star td{text-align:center; vertical-align:middle; }
 table.equation-star { width:100%; } 
 mtd.align-odd{margin-left:2em; text-align:right;}
